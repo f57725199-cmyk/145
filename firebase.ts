@@ -5,14 +5,13 @@ import { getDatabase, ref, set, get, onValue, update, remove } from "firebase/da
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 
 // --- FIREBASE CONFIGURATION (PROVIDED BY USER) ---
-const defaultFirebaseConfig = {
-  apiKey: "AIzaSyC7N3IOa7GRETNRBo8P-QKVFzg2bLqoEco",
-  authDomain: "students-app-deae5.firebaseapp.com",
-  databaseURL: "https://students-app-deae5-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "students-app-deae5",
-  storageBucket: "students-app-deae5.firebasestorage.app",
-  messagingSenderId: "128267767708",
-  appId: "1:128267767708:web:08ed73b1563b2f3eb60259"
+const firebaseConfig = {
+  apiKey: "AIzaSyAKuIGYmyo4sDbz3ET5zpZmCH5AnQASZxI",
+  authDomain: "jan2025-f69a8.firebaseapp.com",
+  projectId: "jan2025-f69a8",
+  storageBucket: "jan2025-f69a8.firebasestorage.app",
+  messagingSenderId: "158470334860",
+  appId: "1:158470334860:web:e67ac809060da43da3cea9"
 };
 
 // --- DYNAMIC CONFIG LOADER (Allows Admin to Switch Backend) ---
